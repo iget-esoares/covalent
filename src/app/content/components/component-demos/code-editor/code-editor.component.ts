@@ -4,7 +4,6 @@ import { Component } from '@angular/core';
   selector: 'code-editor-demo',
   styleUrls: ['./code-editor.component.scss'],
   templateUrl: './code-editor.component.html',
-  preserveWhitespaces: true,
 })
 export class CodeEditorDemoComponent {
   editorVal: string = `

@@ -7,7 +7,6 @@ import { slideInUpAnimation } from '../../../../app.animations';
   styleUrls: ['./pipes.component.scss'],
   templateUrl: './pipes.component.html',
   animations: [slideInUpAnimation],
-  preserveWhitespaces: true,
 })
 export class PipesComponent {
   @HostBinding('@routeAnimation') routeAnimation: boolean = true;

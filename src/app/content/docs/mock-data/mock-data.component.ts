@@ -7,7 +7,6 @@ import { slideInUpAnimation } from '../../../app.animations';
   styleUrls: ['./mock-data.component.scss'],
   templateUrl: './mock-data.component.html',
   animations: [slideInUpAnimation],
-  preserveWhitespaces: true,
 })
 export class MockDataComponent {
   @HostBinding('@routeAnimation') routeAnimation: boolean = true;

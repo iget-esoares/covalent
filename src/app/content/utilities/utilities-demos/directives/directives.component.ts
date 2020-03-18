@@ -7,7 +7,6 @@ import { slideInUpAnimation } from '../../../../app.animations';
   styleUrls: ['./directives.component.scss'],
   templateUrl: './directives.component.html',
   animations: [slideInUpAnimation],
-  preserveWhitespaces: true,
 })
 export class DirectivesComponent {
   @HostBinding('@routeAnimation') routeAnimation: boolean = true;

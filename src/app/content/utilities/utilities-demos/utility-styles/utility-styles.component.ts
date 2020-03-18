@@ -7,7 +7,6 @@ import { slideInUpAnimation } from '../../../../app.animations';
   templateUrl: './utility-styles.component.html',
   styleUrls: ['./utility-styles.component.scss'],
   animations: [slideInUpAnimation],
-  preserveWhitespaces: true,
 })
 export class UtilityStylesComponent {
   @HostBinding('@routeAnimation') routeAnimation: boolean = true;

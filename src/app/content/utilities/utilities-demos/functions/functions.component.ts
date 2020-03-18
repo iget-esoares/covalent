@@ -18,7 +18,7 @@ import {
   selector: 'td-functions',
   templateUrl: './functions.component.html',
   styleUrls: ['./functions.component.scss'],
-  preserveWhitespaces: true,
+
   animations: [slideInUpAnimation],
 })
 export class FunctionsDemoComponent {

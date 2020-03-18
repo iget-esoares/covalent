@@ -26,7 +26,6 @@ import { tdPulseAnimation } from '../../../../../platform/core/common/animations
     tdJelloAnimation,
     tdPulseAnimation,
   ],
-  preserveWhitespaces: true,
 })
 export class AnimationsComponent {
   @HostBinding('@routeAnimation') routeAnimation: boolean = true;

@@ -523,8 +523,7 @@ class TdMarkdownEmptyStaticContentTestRenderingComponent {}
         # title
 
         * list item
-      </td-markdown>`,
-  preserveWhitespaces: true,
+      </td-markdown>`
 })
 class TdMarkdownStaticContentTestRenderingComponent {}
 
@@ -545,8 +544,7 @@ class TdMarkdownDymanicContentTestRenderingComponent {
         second line
         third line
       </td-markdown>
-      `,
-  preserveWhitespaces: true,
+      `
 })
 class TdMarkdownSimpleLineBreaksTestRenderingComponent {
   simpleLineBreaks: boolean;
@@ -571,8 +569,7 @@ class TdMarkdownEmptyStaticContentTestEventsComponent {
         # title
 
         * list item
-      </td-markdown>`,
-  preserveWhitespaces: true,
+      </td-markdown>`
 })
 class TdMarkdownStaticContentTestEventsComponent {
   tdMarkdownContentIsReady(): void {
